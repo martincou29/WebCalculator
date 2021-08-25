@@ -1,0 +1,115 @@
+:root {
+    --color-black: #082032;
+    --color-gray: #2C394B;
+    --gray-color: hsl(180, 2%, 88%);
+    --color-lightgray: #334756;
+    --color-orange: #FF4C29;
+    --font-oswald: 'Oswald', sans-serif;
+    --font-openSans: 'Open Sans', sans-serif;
+    --font-PTSans: 'PT Sans', sans-serif;
+  }
+
+*, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+body{
+  font-size: 4rem;
+  background-color: var(--color-black);
+  margin: 0;
+}
+
+.container{
+    width: 600px;
+    margin: auto auto;
+    overflow: hidden;
+} 
+
+.calculadora{
+  margin-top: 4%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div.display{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: var(--color-gray);
+  border: 0px;
+  color: white;
+  padding: 10px;
+  height: auto;
+  text-align: center;
+}
+
+div.display p {
+  margin: 0;
+}
+
+div.display input{
+  color: #E1E1E1;
+  font-size: 2rem;
+  margin: 0%;
+  width: 100%;
+  padding: 10px;
+  margin: 1px;
+  background-color: black;
+  border-width: 1;
+  border-style: double;
+  border-radius: 10px;
+  border-color: orange;
+}
+
+div.display input:focus{
+  border-color: white;
+  outline: none;
+}
+
+
+div.keys{
+  display: grid;
+  height: 500px;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 10px;
+  column-gap: 10px;
+  padding: 15px;
+  background-color: var(--color-gray);
+}
+
+button{
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  font-size: 3rem;
+  border-radius: 10px;
+  border-style: none;
+}
+
+@media (max-width: 648px) {
+  .container {
+    width: 90%;
+  }
+  button{
+    width: 80%;
+  }
+  .calculadora{
+    margin-top: 15%;
+  }
+  div.keys{
+    max-height: 450px;
+  }
+}
+
+.is-depressed{
+  background-color: #E1E1E1;
+}
+
+button.key--equal{
+  grid-row: 2 / 6;
+  grid-column: 4 / 5;
+}
+
+button.key--equal{
+  background-color: var(--color-orange);
+}
