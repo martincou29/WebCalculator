@@ -21,6 +21,10 @@ Build a Calculator App where you can write your own mathematical expressions
 - Press Enter to Calculate the expression
 - Be able to notice a Syntax Error
 
+## Screenshot
+
+![image](https://user-images.githubusercontent.com/60389576/130826297-0dd6639a-9dd2-43c2-9f53-d40f6a712780.png)
+
 ## Later Updates
 
 - Add light mode
