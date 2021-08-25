@@ -1,4 +1,4 @@
-# A Simple Calculator Web Application
+# A Simple Web Calculator Application
 
 A Responsive Calculator App. Built using HTML, CSS and Javascript. You can use the buttons to write or write the mathematical expressions in the input field.
 
