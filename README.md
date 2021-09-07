@@ -31,5 +31,4 @@ Build a Calculator App where you can write your own mathematical expressions
 ## Later Updates
 
 - Add light mode
-- Work in the responsive
 - Fix the common float error wich makes 0.1 + 0.2 be equal to 0.30000004
